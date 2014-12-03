@@ -38,7 +38,7 @@
 		EEA9D2951A0D1F1C006BA631 /* remotecontrol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remotecontrol.png; sourceTree = "<group>"; };
 		EEC26D511A0DFD0F008C8088 /* bulb_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulb_5.png; sourceTree = "<group>"; };
 		EEC26D521A0DFD0F008C8088 /* bulb_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulb_6.png; sourceTree = "<group>"; };
-		EECF5F0A1A0C7D20009480DC /* CBRemoteController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBRemoteController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECF5F0A1A0C7D20009480DC /* 遙控燈泡君.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "遙控燈泡君.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECF5F0E1A0C7D20009480DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EECF5F0F1A0C7D20009480DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EECF5F111A0C7D20009480DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		EECF5F0B1A0C7D20009480DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EECF5F0A1A0C7D20009480DC /* CBRemoteController.app */,
+				EECF5F0A1A0C7D20009480DC /* 遙控燈泡君.app */,
 				EECF5F231A0C7D20009480DC /* CBRemoteControllerTests.xctest */,
 			);
 			name = Products;
@@ -171,7 +171,7 @@
 			);
 			name = CBRemoteController;
 			productName = CBRemoteController;
-			productReference = EECF5F0A1A0C7D20009480DC /* CBRemoteController.app */;
+			productReference = EECF5F0A1A0C7D20009480DC /* 遙控燈泡君.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EECF5F221A0C7D20009480DC /* CBRemoteControllerTests */ = {
@@ -376,7 +376,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CBRemoteController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "遙控燈泡君";
 			};
 			name = Debug;
 		};
@@ -387,7 +387,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CBRemoteController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "遙控燈泡君";
 			};
 			name = Release;
 		};
