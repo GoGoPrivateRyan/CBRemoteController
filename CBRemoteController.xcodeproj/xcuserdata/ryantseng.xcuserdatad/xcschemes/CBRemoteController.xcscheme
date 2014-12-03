@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EECF5F091A0C7D20009480DC"
-               BuildableName = "CBRemoteController.app"
+               BuildableName = "&#x9059;&#x63a7;&#x71c8;&#x6ce1;&#x541b;.app"
                BlueprintName = "CBRemoteController"
                ReferencedContainer = "container:CBRemoteController.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EECF5F091A0C7D20009480DC"
-            BuildableName = "CBRemoteController.app"
+            BuildableName = "&#x9059;&#x63a7;&#x71c8;&#x6ce1;&#x541b;.app"
             BlueprintName = "CBRemoteController"
             ReferencedContainer = "container:CBRemoteController.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EECF5F091A0C7D20009480DC"
-            BuildableName = "CBRemoteController.app"
+            BuildableName = "&#x9059;&#x63a7;&#x71c8;&#x6ce1;&#x541b;.app"
             BlueprintName = "CBRemoteController"
             ReferencedContainer = "container:CBRemoteController.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EECF5F091A0C7D20009480DC"
-            BuildableName = "CBRemoteController.app"
+            BuildableName = "&#x9059;&#x63a7;&#x71c8;&#x6ce1;&#x541b;.app"
             BlueprintName = "CBRemoteController"
             ReferencedContainer = "container:CBRemoteController.xcodeproj">
          </BuildableReference>
