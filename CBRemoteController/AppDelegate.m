@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,6 +23,28 @@
     [NSThread sleepForTimeInterval:2]; //add 2 seconds longer.
 
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    // Check the calling application Bundle ID
+    if ([sourceApplication isEqualToString:@"com.gogoprivateryan.afuuhelpme"])
+    {
+        NSLog(@"Calling Application Bundle ID: %@", sourceApplication);
+        NSLog(@"URL scheme:%@", [url scheme]);
+        NSLog(@"URL query: %@", [url query]);
+        
+        ViewController *viewController = (ViewController*)self.window.rootViewController;
+        
+        if ([[url query] isEqualToString:@"cmd=1"])
+            [viewController btnOnPressed];
+        else if ([[url query] isEqualToString:@"cmd=0"])
+            [viewController btnOffPressed];
+    
+        return YES;
+    }
+    else
+        return NO;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
